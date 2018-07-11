@@ -1,0 +1,7 @@
+---
+applications:
+- name: spinner
+  memory: 1024M
+  path: target/spinner-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  host: spinner
